@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="TallerMecanico.API/TallerMecanico.API.csproj" />
+  <Project Path="TallerMecanico.ClassLibrary/TallerMecanico.ClassLibrary.csproj" Id="706494b8-1558-4413-ba40-9f30a722dd76" />
+</Solution>
