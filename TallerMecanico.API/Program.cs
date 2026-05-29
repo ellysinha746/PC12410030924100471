@@ -1,4 +1,7 @@
+using TallerMecanico.ClassLibrary.Infraestructure;
+
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<TallerMecanicoContext>();
 
 // Add services to the container.
 
