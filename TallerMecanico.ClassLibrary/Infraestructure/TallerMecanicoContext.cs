@@ -7,6 +7,7 @@ namespace TallerMecanico.ClassLibrary.Infraestructure;
 
 public partial class TallerMecanicoContext : DbContext
 {
+
     public TallerMecanicoContext()
     {
     }
