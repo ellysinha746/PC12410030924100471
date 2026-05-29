@@ -1,8 +1,10 @@
+using TallerMecanico.ClassLibrary.Core.Interfaces;
 using TallerMecanico.ClassLibrary.Infraestructure;
+using TallerMecanico.ClassLibrary.Infraestructure.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<TallerMecanicoContext>();
-
+builder.Services.AddScoped<IOrdenServicioRepository, OrdenServicioRepository>();
 // Add services to the container.
 
 builder.Services.AddControllers();
